@@ -1,0 +1,121 @@
+body {
+	background-color: #E6E4E1;
+}
+button.selected {
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 16px;
+}
+ul.button-list{
+	margin-right: 70px;
+	list-style: none;
+	text-align: center;
+	display: flex;	
+	justify-content: center;
+}
+
+button:not(.right-align) {
+	padding: 10px 20px;
+	height: 64px;
+	background-color: transparent;
+	border: 2px solid transparent;
+	color: black;
+	cursor: pointer;
+	font: normal normal bold 16px/22px "Acumin Pro", sans-serif;
+	opacity: 1;
+	box-sizing: border-box;
+	transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+li.right-align:hover {
+	background-color: #141414;
+	color: white;
+	border-radius: 16px;
+}
+
+li.right-align {
+	position: absolute;
+	padding: 0;
+	height: 64px;
+	background-color: transparent;
+	border: 2px solid black;
+	color: black;
+	cursor: pointer;
+	font: normal normal normal 16px/64px "Acumin Pro", sans-serif;
+	opacity: 1;
+	box-sizing: border-box;
+	transition: background-color 0.3s, color 0.3s, border 0.3s;
+	margin-right: 130px;
+	margin-left: 1537px;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: left;
+}
+.intro-text{
+
+	position: absolute;
+	top: 396px;
+	left: 314px;
+	/*width: 536px;*/
+	/*height: 221px;*/
+	/*text-align: left;*/
+}
+
+.intro h1 {
+
+	margin: 0;
+	font: normal normal bold 100px/120px "Acumin Pro", sans-serif;
+	letter-spacing: 0px;
+	color: black;
+	opacity: 1;
+
+}
+
+.intro h3 {
+	margin-top: 32px;
+
+	font: normal normal normal 16px/22px "Acumin Pro", sans-serif;
+}
+
+.image img {
+
+	position: absolute;
+	top: 298px;
+	margin-left: 1103px;
+	background-color: transparent;
+	opacity: 1;
+}
+
+.logo {
+	position: absolute;
+	top: 40px;
+	left: 80px;
+	font: normal normal bold 32px/64px "Acumin Pro", sans-serif;
+	font-weight: bold;
+	color: white;
+	background-color: #141414;
+	width: 64px;
+	height: 64px;
+	line-height: 64px;
+	text-align: center;
+	border-radius: 16px;
+}
+
+.twitter-logo {
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  text-align: center;
+  background-color: #141414;
+  border-radius: 16px;
+  color: white;
+  font-size: 32px;
+}
